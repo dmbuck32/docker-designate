@@ -10,7 +10,7 @@ git checkout origin/2025.1
 
 Build the image.
 ```bash
-docker build --build-arg UBUNTU_VERSION=24.04 --build-arg UBUNTU_CLOUD_ARCHIVE=epoxy --tag docker-designate:2025.01 .
+docker build --build-arg UBUNTU_VERSION=24.04 --build-arg UBUNTU_CLOUD_ARCHIVE=epoxy --tag docker-designate:2025.1 .
 ```
 
 ## Running locally via Docker

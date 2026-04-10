@@ -9,7 +9,8 @@ RUN apt-get update && \
     add-apt-repository cloud-archive:${UBUNTU_CLOUD_ARCHIVE} -y && \
     apt-get update && \
     apt-get install --yes \
-        designate  && \
+        designate \
+        python3-psycopg && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 

@@ -10,7 +10,8 @@ RUN apt-get update && \
     apt-get update && \
     apt-get install --yes \
         designate \
-        python3-psycopg && \
+        python3-psycopg \
+        python3-psycopg2 && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 

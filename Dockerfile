@@ -1,7 +1,7 @@
 ARG UBUNTU_VERSION=24.04
 FROM ubuntu:${UBUNTU_VERSION}
 
-ARG UBUNTU_CLOUD_ARCHIVE=dalmation
+ARG UBUNTU_CLOUD_ARCHIVE=dalmatian
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && \
     apt-get install --yes \
